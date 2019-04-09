@@ -29,10 +29,13 @@ the provided site architecture.
 
 __Feed sources:__
 
-Give the user the ability to pull from a multiple news sources. Here are two news sources we suggest:
+Give the user the ability to pull from a multiple news sources. Here are some news source suggestions:
 
 - [NPR One](http://dev.npr.org/)
 - [Hearst publishing group](http://developer.hearst.com/) (Cosmopolitan, Elle, Popular Mechanics, Road and Track, etc.)
+- [Mashable: http://mashable.com/stories.json](http://mashable.com/stories.json)
+- [Reddit: https://www.reddit.com/top.json](https://www.reddit.com/top.json)
+- [Digg: http://digg.com/api/news/popular.json](http://digg.com/api/news/popular.json)
 
 You should also feel free to use other news APIs; however, you will find that many APIs that do not support either [CORS](https://en.wikipedia.org/wiki/Cross-origin_resource_sharing) or [JSONp](https://en.wikipedia.org/wiki/JSONP) will result in a cross-domain restriction error ("No 'Access-Control-Allow-Origin' header is present...") in the browser. To get around this, you can use the following proxy server to filter your API requests.
 
@@ -130,17 +133,17 @@ __Additional UI interaction rules:__
 ### Getting Started
 
 Begin by "forking" the starter code repository. You can do so by clicking the "Fork" icon on
-the top right of [this](https://github.com/generalassembly-studio/JS-Unit-2-Project-Starter-Code) page. Once
+the top right of [this page](https://github.com/misk-jsd2/Project-2-Feedr) page. Once
 complete, clone the repository to your computer by running the following
 commands:
 
 ```
-cd ~/Sites/
-git clone https://github.com/<your-username-here>/feedr.git
-cd feedr
+cd ~/<your-misk-js-folder-on-your-computer>/
+git clone https://github.com/<your-username-here>/Project-2-Feedr.git
+cd Project-2-Feedr
 ```
 
-You can then open Sublime Text and point it at the `~/Sites/feedr` directory and
+You can then open Sublime Text and point it at the `~/<your-misk-js-folder-on-your-computer>/Project-2-Feedr` directory and
 work on the below steps. As you accomplish a feature, be sure to commit it in
 Git with the following commands:
 
